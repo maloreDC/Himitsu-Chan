@@ -1,0 +1,168 @@
+body{
+  background: #121212; 
+  margin: 5 5 5 5;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+div.mainPanel{
+
+  float: left;
+  text-align: center;
+  background: #333333;
+  height: auto;
+  width: 49%;
+  margin-left: 25%;
+  margin-top: 3.7%;
+  border-radius: 15px;
+  padding: 5 0 5 0;
+
+}
+
+div.Nav_Bar {
+  background-color: #345064;
+  height: 6%;
+  width: 100%;
+  margin: 0 0 0 0;
+  position: fixed;
+  }
+
+a.nav {
+  cursor: pointer;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  margin: 4px 10px 0 10px;
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  float: left;
+  border-radius: 15px;
+  }
+
+a.nav:hover {
+  background-color: #000000;
+  }
+
+a.logout {
+    cursor: pointer;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin: 4px 10px 0 10px;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    float: right;
+    border-radius: 15px;
+    }
+    
+a.logout:hover {
+    background-color: #000000;
+    }
+
+ul.navBar {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: #333333;
+  
+  }
+
+div.profileWrp{
+
+  height: 40%;
+  width: 50%;
+  background: #ffffff;
+  color: #000000;
+  text-align: left;
+  float:right;
+  margin-top: 10%;
+  margin-right: 5%;
+  padding: 5 5 5 5;
+  font-family:'Helvetica Neue';
+  border-radius: 15px;
+
+}
+
+img.profile{
+  
+  margin-top: 10%;
+  width: 25%;
+  height: 25%;
+
+}
+
+div.bioWrp{
+
+  height: 10%;
+  width: 25%;
+  background: #ffffff;
+  color: #000000;
+  text-align: left;
+  float:left;
+  margin-top: 2%;
+  margin-left: 8%;
+  padding: 5 5 5 10;
+  font-family:'Helvetica Neue';
+  border-radius: 50px;
+  word-wrap: break-word;
+  font-size: 10px;
+}
+
+h2.username{
+
+  padding: 5 5 5 5;
+  margin: 0 0 0 0;
+  text-decoration: underline;
+
+}
+
+p.post{
+
+padding: 5 50 5 50;
+
+}
+
+img.imagePost{
+
+border-radius: 15px;
+width: 500px;
+height:500px;
+margin-left: 7%;
+margin-bottom: 1%;
+border: 1px solid gray;
+}
+
+div.dateTime{
+
+padding: 5 5 5 5;
+font-size: 11px;
+text-align: right;
+
+}
+
+div.wrp1{
+  width: 89%;
+  background: #4c4c4c;
+  border-radius: 15px;
+  height: auto;
+  margin: auto;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 5 5 5 5;
+  border: 1px solid black;
+  margin-bottom: 1%;
+
+}
+
+div.wrp0{
+
+  width: 89%;
+  background: #4c4c4c;
+  border-radius: 15px;
+  height: auto;
+  margin: auto;
+  padding: 5 5 5 5;
+  overflow: auto;
+  margin-bottom: 1%;
+
+}

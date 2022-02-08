@@ -1,0 +1,90 @@
+body{
+  background: #121212; 
+  margin: 5 5 5 5;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+div.mainPanel{
+
+  float: left;
+  text-align: center;
+  background: #333333;
+  height: auto;
+  width: 49%;
+  margin-left: 25%;
+  margin-top: 3.7%;
+  border-radius: 15px;
+  padding: 5 0 5 0;
+
+}
+
+div.Nav_Bar {
+  background-color: #345064;
+  height: 6%;
+  width: 100%;
+  margin: 0 0 0 0;
+  position: fixed;
+  }
+
+a.nav {
+  cursor: pointer;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  margin: 4px 10px 0 10px;
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  float: left;
+  border-radius: 15px;
+  }
+
+a.nav:hover {
+  background-color: #000000;
+  }
+
+a.logout {
+    cursor: pointer;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin: 4px 10px 0 10px;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    float: right;
+    border-radius: 15px;
+    }
+    
+a.logout:hover {
+    background-color: #000000;
+    }
+
+ul.navBar {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: #333333;
+  
+  }
+
+  input.update{ 
+
+    width: 50%;
+    height: 5%;
+    background: #121212;
+    border: 0; 
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 0 0 0 0;
+    margin-top: 5%;
+  
+     }
+  
+  input.update:hover{ 
+  
+  background:   #e9e7e7; 
+  transition: .6s;
+  color: #121212;
+  }

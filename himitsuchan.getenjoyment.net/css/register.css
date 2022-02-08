@@ -1,0 +1,150 @@
+body{
+  background: #121212; 
+  margin: 5 5 5 5;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif
+} 
+
+
+div.regPanel{
+
+  text-align: center;
+  background: #333333;
+  height: auto;
+  width: 30%;
+  margin: auto;
+  padding: 5 0 5 0;
+  border-radius: 15px;
+
+}
+
+input{
+
+  width: 95%; 
+  background: none;
+  border: 2px solid #fff; 
+  border-radius: 10px;
+  padding: 6px 15px; 
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #fff;
+  margin: 5px;
+
+}
+
+label{
+
+ 
+  padding: 6px 5px; 
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #fff;
+  display: inline-flex;
+  float:left;
+  margin: 0 0 0 10;
+
+}
+
+select{
+
+  width: 95%; 
+  background: none;
+  border: 2px solid #fff; 
+  border-radius: 10px;
+  padding: 6px 15px; 
+  box-sizing: border-box;
+  margin-bottom: 8px; 
+  font-size: 12px;
+  color:#fff;
+  margin: 5px;
+
+}
+
+input::placeholder{
+
+  color: #fff;
+
+}
+
+option{
+
+  background: #333333;
+
+}
+
+img{
+
+  width:150px;
+  height:150px;
+  margin: 20 55 0 0;
+
+}
+
+input.register{ 
+
+  width: 50%;
+  height: 5%;
+  background: #121212;
+  border: 0; 
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 0 0 0 0;
+  margin-top: 5%;
+
+   }
+
+input.register:hover{ 
+
+background:   #e9e7e7; 
+transition: .6s;
+color: #121212;
+}
+
+a{
+  cursor: pointer;
+  color:#2d73a6;
+}
+
+a:hover{
+  
+  color: #6fabd6; 
+}
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
